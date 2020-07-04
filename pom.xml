@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>yaoyaoSSH</artifactId>
+  <artifactId>youyi</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>yaoyaoSSH Maven Webapp</name>
+  <name>youyi Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -31,39 +31,45 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
-      <version>4.3.25.RELEASE</version>
+      <version>4.3.27.RELEASE</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>4.3.27.RELEASE</version>
     </dependency>
 
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-tx</artifactId>
-      <version>4.1.0.RELEASE</version>
+      <version>4.3.27.RELEASE</version>
     </dependency>
 
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
-      <version>4.2.6.RELEASE</version>
+      <version>4.3.27.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version>4.2.6.RELEASE</version>
+      <version>4.3.27.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
-      <version>4.2.6.RELEASE</version>
+      <version>4.3.27.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
-      <version>4.2.6.RELEASE</version>
+      <version>4.3.27.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-jdbc</artifactId>
-      <version>4.2.6.RELEASE</version>
+      <version>4.3.27.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>com.github.stefanbirkner</groupId>
@@ -78,11 +84,13 @@
     </dependency>
 
     <!--数据库驱动-->
+
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>5.1.47</version>
     </dependency>
+
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
@@ -101,6 +109,7 @@
       <groupId>javax.servlet</groupId>
       <artifactId>servlet-api</artifactId>
       <version>2.5</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>javax.servlet.jsp</groupId>
@@ -132,6 +141,12 @@
       <version>2.11.0</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.11.0</version>
+    </dependency>
+
     <!--log4j配置，视情况而定-->
     <dependency>
       <groupId>log4j</groupId>
@@ -146,12 +161,18 @@
       <version>4.3.11.Final</version>
     </dependency>
 
-    <!--    &lt;!&ndash;文件 上传 &ndash;&gt;-->
-    <!--    <dependency>-->
-    <!--      <groupId>commons-fileupload</groupId>-->
-    <!--      <artifactId>commons-fileupload</artifactId>-->
-    <!--      <version></version>-->
-    <!--    </dependency>-->
+    <!--文件 上传 -->
+    <dependency>
+      <groupId>commons-fileupload</groupId>
+      <artifactId>commons-fileupload</artifactId>
+      <version>1.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.4</version>
+    </dependency>
 
     <!--    &lt;!&ndash;hibernate 缓存，视情况添加&ndash;&gt;-->
     <!--    <dependency>-->
@@ -160,11 +181,6 @@
     <!--      <version>${springVersion}</version>-->
     <!--    </dependency>-->
 
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-core</artifactId>
-      <version>4.3.27.RELEASE</version>
-    </dependency>
 
     <dependency>
       <groupId>org.springframework</groupId>
@@ -178,17 +194,30 @@
       <version>1.2.4</version>
     </dependency>
 
-    <!--文件上传下载-->
-    <dependency>
-      <groupId>commons-fileupload</groupId>
-      <artifactId>commons-fileupload</artifactId>
-      <version>1.4</version>
-    </dependency>
-
     <dependency>
       <groupId>javax.annotation</groupId>
       <artifactId>jsr250-api</artifactId>
       <version>1.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.xml.bind</groupId>
+      <artifactId>jaxb-api</artifactId>
+      <version>2.3.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+    <dependency>
+      <groupId>io.springfox</groupId>
+      <artifactId>springfox-swagger2</artifactId>
+      <version>2.9.2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+    <dependency>
+      <groupId>io.springfox</groupId>
+      <artifactId>springfox-swagger-ui</artifactId>
+      <version>2.9.2</version>
     </dependency>
 
   </dependencies>
@@ -228,20 +257,25 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <!--加如下配置防止maven打包时mapper文件打包不进去（在项目的mapper模块下）-->
     <resources>
       <resource>
         <directory>src/main/java</directory>
         <includes>
+          <include>**/*.properties</include>
           <include>**/*.xml</include>
         </includes>
-        <filtering>true</filtering>
+        <filtering>false</filtering>
       </resource>
+
+      <!--加如下配置防止resources目录下的spring配置文件找不到（在项目的web模块下）-->
       <resource>
         <directory>src/main/resources</directory>
         <includes>
-          <include>*</include>
+          <include>**/*.properties</include>
+          <include>**/*.xml</include>
         </includes>
-        <filtering>true</filtering>
+        <filtering>false</filtering>
       </resource>
     </resources>
 

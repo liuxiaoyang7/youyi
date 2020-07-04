@@ -1,6 +1,8 @@
 package com.cn.youyi.service;
 
+import com.cn.youyi.dao.OrderDao;
 import com.cn.youyi.dao.UserDao;
+import com.cn.youyi.entity.Oorder;
 import com.cn.youyi.entity.User;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -28,5 +30,21 @@ public class UserServiceImpl implements UserService {
     public List<User> getAllUser() {
         return userDao.getAllUser();
     }
+
+    @Override
+    public List<User> getUserByName(String name) {
+        return userDao.getUserByName(name);
+    }
+
+    @Override
+    public List<User> getUserByIDcard(String IDcard) {
+        return userDao.getUserByIDcard(IDcard);
+    }
+
+    @Override
+    public int payYue(int yue, String name) {
+        return  userDao.payYue(yue, name);
+    }
+
 
 }

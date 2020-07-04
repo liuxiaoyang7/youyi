@@ -1,6 +1,9 @@
 package com.cn.youyi.entity;
 
-import javax.persistence.*;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 public class User {
@@ -8,12 +11,12 @@ public class User {
     private String name;
     private String password;
     private String sex;
-    private Integer phone;
+    private String phone;
     private String iDcard;
     private Integer experience;
     private String headphoto;
     private Integer typeid;
-    private Usertype usertypeByTypeid;
+    private Integer yue;
 
     @Id
     @Column(name = "uid", nullable = false)
@@ -56,12 +59,12 @@ public class User {
     }
 
     @Basic
-    @Column(name = "phone", nullable = true)
-    public Integer getPhone() {
+    @Column(name = "phone", nullable = true, length = 15)
+    public String getPhone() {
         return phone;
     }
 
-    public void setPhone(Integer phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
@@ -105,6 +108,16 @@ public class User {
         this.typeid = typeid;
     }
 
+    @Basic
+    @Column(name = "yue", nullable = true)
+    public Integer getYue() {
+        return yue;
+    }
+
+    public void setYue(Integer yue) {
+        this.yue = yue;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -121,6 +134,7 @@ public class User {
         if (experience != null ? !experience.equals(user.experience) : user.experience != null) return false;
         if (headphoto != null ? !headphoto.equals(user.headphoto) : user.headphoto != null) return false;
         if (typeid != null ? !typeid.equals(user.typeid) : user.typeid != null) return false;
+        if (yue != null ? !yue.equals(user.yue) : user.yue != null) return false;
 
         return true;
     }
@@ -136,16 +150,7 @@ public class User {
         result = 31 * result + (experience != null ? experience.hashCode() : 0);
         result = 31 * result + (headphoto != null ? headphoto.hashCode() : 0);
         result = 31 * result + (typeid != null ? typeid.hashCode() : 0);
+        result = 31 * result + (yue != null ? yue.hashCode() : 0);
         return result;
-    }
-
-    @ManyToOne
-    @JoinColumn(name = "typeid", referencedColumnName = "id")
-    public Usertype getUsertypeByTypeid() {
-        return usertypeByTypeid;
-    }
-
-    public void setUsertypeByTypeid(Usertype usertypeByTypeid) {
-        this.usertypeByTypeid = usertypeByTypeid;
     }
 }

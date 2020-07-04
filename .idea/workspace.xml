@@ -7,7 +7,97 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9795174-45e1-4830-b5d9-55f56f88e16a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/youyi/dao/OrderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cn/youyi/entity/Oorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Oorder.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3181dced-e52f-494c-ad39-b8e896ea0c93.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3181dced-e52f-494c-ad39-b8e896ea0c93/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/youyi/controller/CommodityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/youyi/controller/CommodityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/youyi/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/youyi/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/youyi/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/youyi/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/youyi/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/youyi/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/youyi/entity/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/youyi/entity/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/youyi/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/youyi/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/youyi/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/youyi/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cn/youyi/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cn/youyi/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Comment.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Comment.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Commodity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Commodity.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Discount.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Discount.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Game.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Game.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Post.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Post.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Postbar.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Postbar.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Posttype.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Posttype.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/User.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/User.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Usertype.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Usertype.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Comment.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Comment.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Commodity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Commodity.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Discount.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Discount.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Game.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Game.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Post.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Post.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Postbar.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Postbar.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Posttype.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Posttype.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/User.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/User.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Usertype.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Usertype.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/youyi/controller/CommodityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/youyi/controller/CommodityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/youyi/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/youyi/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/youyi/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/youyi/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/youyi/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/youyi/dao/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/youyi/entity/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/youyi/entity/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/youyi/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/youyi/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/youyi/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/youyi/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cn/youyi/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cn/youyi/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Comment.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Comment.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Commodity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Commodity.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Discount.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Discount.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Game.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Game.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Post.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Post.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Postbar.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Postbar.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Posttype.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Posttype.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/User.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/User.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Usertype.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/Usertype.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/controller/CommodityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/controller/CommodityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/dao/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/entity/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/entity/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/service/User.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/com/cn/youyi/service/Usertype.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/lib/servlet-api-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/lib/spring-aop-4.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/lib/spring-beans-4.3.25.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/lib/spring-context-4.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/lib/spring-expression-4.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/lib/spring-jdbc-4.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/lib/spring-test-4.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/lib/spring-tx-4.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/lib/spring-web-4.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/lib/spring-webmvc-4.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/youyi/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/youyi/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youyi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/youyi.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,28 +118,32 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="gamesale" type="feb32156:DbDataSourceImpl" />
+        <item name="gamesale@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="gamesale" type="feb32156:DbDataSourceImpl" />
+        <item name="gamesale@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="gamesale" type="feb32156:DbDataSourceImpl" />
+        <item name="gamesale@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="gamesale: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="youyi" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -80,21 +174,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="JPA.DatabaseSchemaImportDialog" value="3181dced-e52f-494c-ad39-b8e896ea0c93" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="d4607aac-f829-4f23-8359-823e7c809891" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../yaoyao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../yaoyao/src/main/java/com/six/yaoyao/config/MyInterceptor.java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3402299" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.23851854" />
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
@@ -110,6 +204,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea\IntelliJ IDEA 2019.3.3\workspace\youyi\youyi\src\main\resources\src\main\resources" />
       <recent name="E:\idea\IntelliJ IDEA 2019.3.3\workspace\youyi\youyi\src\main\java\com\cn\youyi\entity" />
       <recent name="E:\idea\IntelliJ IDEA 2019.3.3\workspace\youyi\youyi\src\main\java\com\cn\youyi\service" />
       <recent name="E:\idea\IntelliJ IDEA 2019.3.3\workspace\youyi\youyi\src\main\resources" />
@@ -259,7 +354,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.012303486" />
+          <option name="contentProportion" value="0.18579236" />
           <treeState>
             <expand>
               <path>
@@ -269,7 +364,16 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:gamesale@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:gamesale@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3a946d2" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -294,6 +398,16 @@
       <workItem from="1593136967294" duration="5768000" />
       <workItem from="1593221921378" duration="1826000" />
       <workItem from="1593308992043" duration="4942000" />
+      <workItem from="1593394827389" duration="8837000" />
+      <workItem from="1593416257629" duration="1312000" />
+      <workItem from="1593417637872" duration="1737000" />
+      <workItem from="1593479002616" duration="19653000" />
+      <workItem from="1593578189976" duration="51566000" />
+      <workItem from="1593828980792" duration="15829000" />
+      <workItem from="1593847418031" duration="804000" />
+      <workItem from="1593848310459" duration="9560000" />
+      <workItem from="1593863239486" duration="5169000" />
+      <workItem from="1593868488931" duration="15740000" />
     </task>
     <servers />
   </component>
@@ -305,22 +419,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1593310313694" />
+    <state x="361" y="71" key="#Auto_Import" timestamp="1593872091226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1593872091226" />
     <state x="361" y="71" key="#Inspections" timestamp="1592823720510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1592823720510" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1593869001317">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1593869001317" />
     <state x="498" y="74" key="#Tomcat_Server" timestamp="1592820519952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="74" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1592820519952" />
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593224180500">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593870175538">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593224180500" />
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1593312671661">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593870175538" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1593875537164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593312671661" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593875537164" />
     <state x="498" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1593310562054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -333,74 +455,98 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="446" y="319" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1536.824@0.0.1536.824" timestamp="1592891186151" />
-    <state x="439" y="0" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog" timestamp="1593310756389">
+    <state x="439" y="0" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog" timestamp="1593872044035">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="439" y="0" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/0.0.1536.824@0.0.1536.824" timestamp="1593310756389" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593310653340">
+    <state x="439" y="0" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/0.0.1536.824@0.0.1536.824" timestamp="1593872044035" />
+    <state x="548" y="297" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593871973040">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593310653340" />
-    <state x="686" y="156" key="FileChooserDialogImpl" timestamp="1593311810277">
+    <state x="548" y="297" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1593871973040" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593872025146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="686" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593311810277" />
-    <state width="1445" height="58" key="GridCell.Tab.0.bottom" timestamp="1593318323932">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593872025146" />
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1593498458213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1445" height="58" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593318323932" />
-    <state width="1445" height="58" key="GridCell.Tab.0.center" timestamp="1593318323932">
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593498458213" />
+    <state x="686" y="156" key="FileChooserDialogImpl" timestamp="1593870463928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1445" height="58" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593318323932" />
-    <state width="1445" height="58" key="GridCell.Tab.0.left" timestamp="1593318323932">
+    <state x="686" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593870463928" />
+    <state width="1191" height="37" key="GridCell.Tab.0.bottom" timestamp="1593884407568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1445" height="58" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593318323932" />
-    <state width="1445" height="58" key="GridCell.Tab.0.right" timestamp="1593318323932">
+    <state width="1191" height="37" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593884407568" />
+    <state width="1191" height="37" key="GridCell.Tab.0.center" timestamp="1593884407568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1445" height="58" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593318323932" />
-    <state width="1445" height="58" key="GridCell.Tab.1.bottom" timestamp="1593318323933">
+    <state width="1191" height="37" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593884407568" />
+    <state width="1191" height="37" key="GridCell.Tab.0.left" timestamp="1593884407568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1445" height="58" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593318323933" />
-    <state width="1445" height="58" key="GridCell.Tab.1.center" timestamp="1593318323933">
+    <state width="1191" height="37" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593884407568" />
+    <state width="1191" height="37" key="GridCell.Tab.0.right" timestamp="1593884407568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1445" height="58" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593318323933" />
-    <state width="1445" height="58" key="GridCell.Tab.1.left" timestamp="1593318323932">
+    <state width="1191" height="37" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593884407568" />
+    <state width="1191" height="37" key="GridCell.Tab.1.bottom" timestamp="1593884407568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1445" height="58" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593318323932" />
-    <state width="1445" height="58" key="GridCell.Tab.1.right" timestamp="1593318323933">
+    <state width="1191" height="37" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593884407568" />
+    <state width="1191" height="37" key="GridCell.Tab.1.center" timestamp="1593884407568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1445" height="58" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593318323933" />
-    <state width="1445" height="58" key="GridCell.Tab.2.bottom" timestamp="1593318323933">
+    <state width="1191" height="37" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593884407568" />
+    <state width="1191" height="37" key="GridCell.Tab.1.left" timestamp="1593884407568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1445" height="58" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593318323933" />
-    <state width="1445" height="58" key="GridCell.Tab.2.center" timestamp="1593318323933">
+    <state width="1191" height="37" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593884407568" />
+    <state width="1191" height="37" key="GridCell.Tab.1.right" timestamp="1593884407568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1445" height="58" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593318323933" />
-    <state width="1445" height="58" key="GridCell.Tab.2.left" timestamp="1593318323933">
+    <state width="1191" height="37" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593884407568" />
+    <state width="1191" height="37" key="GridCell.Tab.2.bottom" timestamp="1593884407568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1445" height="58" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593318323933" />
-    <state width="1445" height="58" key="GridCell.Tab.2.right" timestamp="1593318323933">
+    <state width="1191" height="37" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593884407568" />
+    <state width="1191" height="37" key="GridCell.Tab.2.center" timestamp="1593884407568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1445" height="58" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593318323933" />
+    <state width="1191" height="37" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593884407568" />
+    <state width="1191" height="37" key="GridCell.Tab.2.left" timestamp="1593884407568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1191" height="37" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593884407568" />
+    <state width="1191" height="37" key="GridCell.Tab.2.right" timestamp="1593884407568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1191" height="37" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593884407568" />
+    <state width="1445" height="362" key="GridCell.Tab.7.bottom" timestamp="1593829067104">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1445" height="362" key="GridCell.Tab.7.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593829067104" />
+    <state width="1445" height="362" key="GridCell.Tab.7.center" timestamp="1593829067104">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1445" height="362" key="GridCell.Tab.7.center/0.0.1536.824@0.0.1536.824" timestamp="1593829067104" />
+    <state width="1445" height="362" key="GridCell.Tab.7.left" timestamp="1593829067104">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1445" height="362" key="GridCell.Tab.7.left/0.0.1536.824@0.0.1536.824" timestamp="1593829067104" />
+    <state width="1445" height="362" key="GridCell.Tab.7.right" timestamp="1593829067104">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1445" height="362" key="GridCell.Tab.7.right/0.0.1536.824@0.0.1536.824" timestamp="1593829067104" />
     <state width="216" height="477" key="HiddenNamespacesPopup" timestamp="1592894476295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="216" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1592894476295" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1593224612802">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1593869811493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593224612802" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593869811493" />
     <state x="349" y="67" key="com.intellij.database.dbimport.ImportDialog" timestamp="1592814565495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -409,18 +555,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="631" y="159" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.824@0.0.1536.824" timestamp="1592894462265" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593308991167">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593868490486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593308991167" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593868490486" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593224714271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1593224714271" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592820437722">
+    <state x="178" y="107" key="new project wizard" timestamp="1593869109514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592820437722" />
+    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1593869109514" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1593875474300">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593875474300" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593881719169">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593881719169" />
     <state x="426" y="95" key="spring file set editor" timestamp="1592886069763">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

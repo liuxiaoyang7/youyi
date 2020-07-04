@@ -1,39 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="gamesale" uuid="3181dced-e52f-494c-ad39-b8e896ea0c93">
+    <data-source source="LOCAL" name="gamesale@localhost" uuid="d4607aac-f829-4f23-8359-823e7c809891">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/gamesale</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="dataSource1" uuid="c0d2f4af-f793-40b1-9ae0-63495ad3bbad">
-      <driver-ref>mysql</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>c3p0
-
-E:/idea/IntelliJ IDEA 2019.3.3/workspace/youyi/youyi/src/main/resources/spring-dao.xml</remarks>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/gamesale?useUnicode=true&amp;characterEncoding=UTF-8</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="sessionFactory/Hibernate" uuid="8b8fc0d1-6c4d-4744-af7d-73d21a49587b">
-      <driver-ref>mysql</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>Hibernate
-
-E:/idea/IntelliJ IDEA 2019.3.3/workspace/youyi/youyi/src/main/resources/spring-dao.xml</remarks>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/gamesale?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=GMT</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="database" uuid="29b10bf5-4894-4cb4-83ff-6298c2bd73df">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>jdbc.properties
-
-E:/idea/IntelliJ IDEA 2019.3.3/workspace/youyi/youyi/src/main/resources/database.properties</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/gamesale?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=GMT</jdbc-url>
     </data-source>

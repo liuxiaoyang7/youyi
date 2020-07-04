@@ -13,7 +13,8 @@
     </listener>
 
     <welcome-file-list>
-        <welcome-file>/WEB-INF/views/login.jsp</welcome-file>
+        <welcome-file>index</welcome-file>
+<!--        <welcome-file>/WEB-INF/views/register.jsp</welcome-file>-->
     </welcome-file-list>
 
 
@@ -36,6 +37,9 @@
     <servlet-mapping>
         <servlet-name>springmvc</servlet-name>
         <url-pattern>/</url-pattern>
+<!--        <url-pattern>*.do</url-pattern>-->
+<!--        <url-pattern>/swagger/*</url-pattern>-->
+<!--        <url-pattern>/api-docs</url-pattern>-->
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>default</servlet-name>

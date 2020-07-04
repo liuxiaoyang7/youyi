@@ -7,6 +7,7 @@
     <class name="com.cn.youyi.entity.Usertype" table="usertype" schema="gamesale">
         <id name="id">
             <column name="id" sql-type="int(5)"/>
+            <generator class="increment"/>
         </id>
         <property name="type">
             <column name="type" sql-type="varchar(10)" length="10" not-null="true"/>

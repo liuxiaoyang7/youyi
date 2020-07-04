@@ -34,4 +34,30 @@ public class UserDaoImpl implements UserDao {
         Query q = sessionFactory.getCurrentSession().createQuery(hql);
         return q.list();
     }
+
+    @Override
+    public List<User> getUserByName(String name) {
+        String hql = "FROM User as u WHERE u.name = ? ";
+        List users = sessionFactory.getCurrentSession().createQuery(hql)//
+                .setParameter(0, name)//
+                .list();
+        return users;
+    }
+
+    @Override
+    public List<User> getUserByIDcard(String IDcard) {
+        String hql = "FROM User as u WHERE u.iDcard = ?";
+        List list = sessionFactory.getCurrentSession().createQuery(hql)//
+                .setParameter(0, IDcard)//
+                .list();
+        return list;
+    }
+
+    @Override
+    public int payYue(int yue, String name) {
+        Query q = sessionFactory.getCurrentSession().createQuery("update User u set u.yue = ? where u.name = ?")
+                .setParameter(0, yue)
+                .setParameter(1, name);
+        return q.executeUpdate();
+    }
 }

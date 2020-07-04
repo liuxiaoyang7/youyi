@@ -7,6 +7,7 @@
     <class name="com.cn.youyi.entity.Posttype" table="posttype" schema="gamesale">
         <id name="ptid">
             <column name="ptid" sql-type="int(5)"/>
+            <generator class="increment"/>
         </id>
         <property name="ptype">
             <column name="ptype" sql-type="varchar(8)" length="8" not-null="true"/>

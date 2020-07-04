@@ -7,6 +7,7 @@
     <class name="com.cn.youyi.entity.Post" table="post" schema="gamesale">
         <id name="pid">
             <column name="pid" sql-type="int(5)"/>
+            <generator class="increment"/>
         </id>
         <property name="pcontent">
             <column name="pcontent" sql-type="varchar(225)" length="225" not-null="true"/>
@@ -29,7 +30,7 @@
         <property name="pbid">
             <column name="pbid" sql-type="int(5)" not-null="true"/>
         </property>
-        <many-to-one insert="false" update="false" name="commodityByCid" class="com.cn.youyi.entity.Commodity">
+        <many-to-one  insert="false" update="false" name="commodityByCid" class="com.cn.youyi.entity.Commodity">
             <column name="cid" not-null="true"/>
         </many-to-one>
     </class>

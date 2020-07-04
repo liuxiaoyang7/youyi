@@ -1,9 +1,6 @@
 package com.cn.youyi.entity;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Game {
@@ -11,6 +8,7 @@ public class Game {
     private String gname;
 
     @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
     @Column(name = "gid", nullable = false)
     public int getGid() {
         return gid;
