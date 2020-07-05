@@ -27,7 +27,7 @@
         <div style="border-bottom: 1px solid crimson; width: 100%; margin: 60px auto">
         <c:forEach var="commodities" items="${commodities}">
             <c:if test="${oorders.cid==commodities.cid}">
-                <div style="float: left;width: 100px;height: 100px;margin-bottom: 60px;margin-left: 20px"><img style="width: 100%;height: 100%;" src="${commodities.cimg}"></div>
+                <div style="float: left;width: 100px;height: 100px;margin-bottom: 60px;margin-left: 20px"><img style="width: 100%;height: 100%;" src="${pageContext.request.contextPath}/statics/image/${commodities.cimg}"></div>
                 <div class="f">${commodities.introduce}</div>
             </c:if>
         </c:forEach>

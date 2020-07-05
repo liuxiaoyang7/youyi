@@ -1,5 +1,6 @@
 package com.cn.youyi.service;
 
+import com.cn.youyi.entity.Commodity;
 import com.cn.youyi.entity.Oorder;
 import com.cn.youyi.entity.User;
 
@@ -25,5 +26,6 @@ public interface UserService {
     //给当前账户充值余额
     public int payYue(int yue, String name);
 
-
+    //修改当前用户的经验
+    public int jinyan(int jinyan, String name);
 }

@@ -101,7 +101,6 @@ public class UserController {
         String[] split = trueName.split("\\.");
         //获取文件的大小
         Long size = file.getSize();
-        System.out.println("文件大小（字节）："+size);
         //需要把file文件存储到本地磁盘上
         String DIR = "E:/idea/IntelliJ IDEA 2019.3.3/workspace/youyi/youyi/src/main/webapp/statics/image/";
         //保存的时候不能保存真实文件名，可以使用一种机制生成唯一的文件名

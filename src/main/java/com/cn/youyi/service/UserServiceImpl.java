@@ -2,6 +2,7 @@ package com.cn.youyi.service;
 
 import com.cn.youyi.dao.OrderDao;
 import com.cn.youyi.dao.UserDao;
+import com.cn.youyi.entity.Commodity;
 import com.cn.youyi.entity.Oorder;
 import com.cn.youyi.entity.User;
 import org.springframework.stereotype.Service;
@@ -44,6 +45,11 @@ public class UserServiceImpl implements UserService {
     @Override
     public int payYue(int yue, String name) {
         return  userDao.payYue(yue, name);
+    }
+
+    @Override
+    public int jinyan(int jinyan, String name) {
+        return userDao.jinyan(jinyan ,name);
     }
 
 

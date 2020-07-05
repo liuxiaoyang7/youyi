@@ -37,6 +37,10 @@
         {%><%}else {User user = (User) session.getAttribute("user");%>
         <li style="list-style-type:none;width:150px;float: right"><a href="${pageContext.request.contextPath}/order/orderByUid/<%=user.getUid()%>">购买记录</a></li>
         <%}%>
+        <%if (session.getAttribute("user")==null)
+        {%><%}else {User user = (User) session.getAttribute("user");if(user.getTypeid()==2){%>
+        <li style="list-style-type:none;width:150px;float: right"><a href="${pageContext.request.contextPath}/ToaddCommidity">发布商品</a></li>
+        <%}else {}}%>
         <li style="list-style-type:none;width:150px;float: right"><a href="${pageContext.request.contextPath}/user/">个人中心</a></li>
         <li style="list-style-type:none;width:150px;float: right"><a href="${pageContext.request.contextPath}/post/">社交</a></li>
         <li style="list-style-type:none;width:150px;float: right"><a href="${pageContext.request.contextPath}/index">回到首页</a></li>

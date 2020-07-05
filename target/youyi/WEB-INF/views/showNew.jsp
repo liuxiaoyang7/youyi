@@ -21,11 +21,12 @@
         <c:forEach var="listN" items="${listN}">
             <div style="float: left;margin-left: 60px;margin-top: 10px; width: 24%;height:200px;border: 1px saddlebrown dashed">
                 <div style="width: 100%; height: 120px">
-                    <img src="${listN.cimg}" style="width: 100%;height: 100%;">
+                    <img src="${pageContext.request.contextPath}/statics/image/${listN.cimg}" style="width: 100%;height: 100%;">
                 </div>
                 <h6 style="display: inline">${listN.titile}</h6><br/>
                 <h6 style="display: inline">${listN.introduce}</h6><br/>
                 <div style="position: relative; bottom: 20px">
+                    <h6  style="display: inline;float:left;color: red">库存:${listN.popularity}</h6>
                     <h6 style="display: inline;float:left;color: red">￥${listN.price}</h6>
                     <h6 style="display: inline;float: left;margin-left: 50px">人气:${listN.rexiao}</h6>
                 </div>

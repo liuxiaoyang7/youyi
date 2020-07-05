@@ -12,6 +12,7 @@
     <script src="${pageContext.request.contextPath}/statics/js/jquery-3.4.1.js"></script>
     <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/statics/css/login.css">
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <%@ include file="header.jsp"%>
     <script>
         function a1(){
             console.log($("#username").val());

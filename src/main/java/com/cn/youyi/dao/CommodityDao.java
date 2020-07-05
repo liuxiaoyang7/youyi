@@ -32,4 +32,16 @@ public interface CommodityDao {
     //根据分类查询商品
     public List<Commodity> getCommodityByVariety(String variety, int gid);
 
+    //更新库存
+    public int updateKucun(int cid, int kucun);
+
+    //更新人气
+    public int updateRenqi(int cid, int renqi);
+
+    //发布新的商品
+    public void addCommidity(Commodity commodity);
+
+    //查询商品总数
+    public int Total();
+
 }

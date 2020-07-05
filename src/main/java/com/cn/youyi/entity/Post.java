@@ -136,4 +136,19 @@ public class Post {
     public void setCommodityByCid(Commodity commodityByCid) {
         this.commodityByCid = commodityByCid;
     }
+
+    @Override
+    public String toString() {
+        return "Post{" +
+                "pid=" + pid +
+                ", pcontent='" + pcontent + '\'' +
+                ", pimg='" + pimg + '\'' +
+                ", publishtime=" + publishtime +
+                ", ptid=" + ptid +
+                ", uid=" + uid +
+                ", cid=" + cid +
+                ", pbid=" + pbid +
+                ", commodityByCid=" + commodityByCid +
+                '}';
+    }
 }

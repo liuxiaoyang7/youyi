@@ -38,11 +38,12 @@
         <c:forEach var="listR" items="${listR}">
             <div style="float: left;margin-left: 60px; width: 24%;height:200px;border: 1px saddlebrown dashed">
                 <div style="width: 100%; height: 120px">
-                    <img src="${listR.cimg}" style="width: 100%;height: 100%;">
+                    <img src="${pageContext.request.contextPath}/statics/image/${listR.cimg}" style="width: 100%;height: 100%;">
                 </div>
                 <h6 style="display: inline">${listR.titile}</h6><br/>
                 <h6 style="display: inline">${listR.introduce}</h6><br/>
                 <div>
+                    <h6  style="display: inline;float:left;color: red">库存:${listR.popularity}</h6>
                     <h6 style="display: inline;float:left;color: red">￥${listR.price}</h6>
                     <h6 style="display: inline;float: left;margin-left: 50px">人气:${listR.rexiao}</h6>
                 </div>
@@ -58,11 +59,12 @@
         <c:forEach var="listN" items="${listN}">
             <div style="float: left;margin-left: 60px; width: 24%;height:200px;border: 1px saddlebrown dashed">
                 <div style="width: 100%; height: 120px">
-                    <img src="${listN.cimg}" style="width: 100%;height: 100%;">
+                    <img src="${pageContext.request.contextPath}/statics/image/${listN.cimg}" style="width: 100%;height: 100%;">
                 </div>
                 <h6 style="display: inline">${listN.titile}</h6><br/>
                 <h6 style="display: inline">${listN.introduce}</h6><br/>
                 <div>
+                    <h6  style="display: inline;float:left;color: red">库存:${listN.popularity}</h6>
                     <h6  style="display: inline;float:left;color: red">￥${listN.price}</h6>
                     <h6 style=" display: inline;float: left;margin-left: 50px">人气:${listN.rexiao}</h6>
                 </div>
@@ -78,11 +80,12 @@
         <c:forEach var="listA" items="${listA}">
             <div style="float: left;margin-left: 60px; width: 24%;height:200px;border: 1px saddlebrown dashed;">
                 <div style="width: 100%; height: 120px">
-                    <img src="${listA.cimg}" style="width: 100%;height: 100%;">
+                    <img src="${pageContext.request.contextPath}/statics/image/${listA.cimg}" style="width: 100%;height: 100%;">
                 </div>
                 <h6 style="display: inline">${listA.titile}</h6><br/>
                 <h6 style="display: inline">${listA.introduce}</h6><br/>
                 <div>
+                    <h6  style="display: inline;float:left;color: red">库存:${listA.popularity}</h6>
                     <h6 style="display: inline;float:left;color: red">￥${listA.price}</h6>
                     <h6 style="display: inline;float: left;margin-left: 50px">人气:${listA.rexiao}</h6>
                 </div>

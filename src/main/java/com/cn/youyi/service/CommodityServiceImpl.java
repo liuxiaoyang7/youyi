@@ -54,4 +54,24 @@ public class CommodityServiceImpl implements CommodityService {
     public List<Commodity> getCommodityByVariety(String variety, int gid) {
         return commodityDao.getCommodityByVariety(variety, gid);
     }
+
+    @Override
+    public int updateKucun(int cid, int kucun) {
+        return commodityDao.updateKucun(cid, kucun);
+    }
+
+    @Override
+    public int updateRenqi(int cid, int renqi) {
+        return commodityDao.updateRenqi(cid, renqi);
+    }
+
+    @Override
+    public void addCommidity(Commodity commodity) {
+        commodityDao.addCommidity(commodity);
+    }
+
+    @Override
+    public int Total() {
+        return commodityDao.Total();
+    }
 }

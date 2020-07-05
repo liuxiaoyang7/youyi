@@ -17,7 +17,7 @@
     </div>
     <div style="margin: 20px auto; width: 60%;border: 1px saddlebrown dashed">
         <div style="width: 100%; height: 500px">
-            <img src="${commodity.cimg}" style="width: 100%;height: 100%;">
+            <img src="${pageContext.request.contextPath}/statics/image/${commodity.cimg}" style="width: 100%;height: 100%;">
         </div>
         <h4 style="display: inline">${commodity.variety}<br/></h4><br/>
         <h4 style="display: inline">${commodity.titile}</h4><br/>
@@ -26,7 +26,14 @@
             <h3 style="display: inline;float:left;color: red">￥${commodity.price}</h3>
             <h3 style="display: inline;float: left;margin-left: 50px">人气:${commodity.rexiao}</h3
             <div style="float: right;">
-                <a href="${pageContext.request.contextPath}/post" style="display:block;width:80px;font-size:20px;color: red;font-weight: bold;float: right;" >商品帖子</a>
+                <%
+                    if(session.getAttribute("user")!=null){
+                %>
+                <a href="${pageContext.request.contextPath}/post1/getPostByCid/${commodity.cid}/${commodity.uid}" style="display:block;width:80px;font-size:20px;color: red;font-weight: bold;float: right;" >商品帖子</a>
+                <%
+                }else{%>
+                <a href="${pageContext.request.contextPath}/post1/getPostByCid/${commodity.cid}" style="display:block;width:80px;font-size:20px;color: red;font-weight: bold;float:right;margin-right: 60px" >商品帖子</a>
+                <%}%>
                 <%
                     if(session.getAttribute("user")!=null){
                         %>

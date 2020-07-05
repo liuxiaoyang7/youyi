@@ -60,4 +60,12 @@ public class UserDaoImpl implements UserDao {
                 .setParameter(1, name);
         return q.executeUpdate();
     }
+
+    @Override
+    public int jinyan(int jinyan, String name) {
+        Query q = sessionFactory.getCurrentSession().createQuery("update User u set u.experience = ? where u.name = ?")
+                .setParameter(0, jinyan)
+                .setParameter(1, name);
+        return q.executeUpdate();
+    }
 }
