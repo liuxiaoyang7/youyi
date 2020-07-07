@@ -23,4 +23,19 @@ public class PostServiceImpl implements PostService {
     public List<Post> getPostByCid(int cid) {
         return postDao.getPostByCid(cid);
     }
+
+    @Override
+    public Post getByPid(int pid) {
+        return postDao.getByPid(pid);
+    }
+
+    @Override
+    public List<Post> getPostByUid(int uid) {
+        return postDao.getPostByUid(uid);
+    }
+
+    @Override
+    public List<Post> getAllPost(int ptid) {
+        return postDao.getAllPost(ptid);
+    }
 }

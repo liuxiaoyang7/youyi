@@ -28,4 +28,7 @@ public interface UserService {
 
     //修改当前用户的经验
     public int jinyan(int jinyan, String name);
+
+    //找到所有的玩家用户
+    public List<User> getUserBytyoeid(int typeid);
 }

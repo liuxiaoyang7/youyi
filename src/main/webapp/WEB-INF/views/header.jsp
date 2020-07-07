@@ -41,8 +41,16 @@
         {%><%}else {User user = (User) session.getAttribute("user");if(user.getTypeid()==2){%>
         <li style="list-style-type:none;width:150px;float: right"><a href="${pageContext.request.contextPath}/ToaddCommidity">发布商品</a></li>
         <%}else {}}%>
+        <%if (session.getAttribute("user")==null)
+        {%><%}else {User user = (User) session.getAttribute("user");if(user.getTypeid()==1){%>
+        <li style="list-style-type:none;width:150px;float: right"><a href="${pageContext.request.contextPath}/post1/ToaddPost">发布帖子</a></li>
+        <%}else {}}%>
+        <%if (session.getAttribute("user")==null)
+        {%><%}else {User user = (User) session.getAttribute("user");%>
+        <li style="list-style-type:none;width:150px;float: right"><a href="${pageContext.request.contextPath}/post1/getPostByUid/<%=user.getUid()%>">我的发布</a></li>
+        <%}%>
         <li style="list-style-type:none;width:150px;float: right"><a href="${pageContext.request.contextPath}/user/">个人中心</a></li>
-        <li style="list-style-type:none;width:150px;float: right"><a href="${pageContext.request.contextPath}/post/">社交</a></li>
+        <li style="list-style-type:none;width:150px;float: right"><a href="${pageContext.request.contextPath}/post1/getAllPost/2">社交</a></li>
         <li style="list-style-type:none;width:150px;float: right"><a href="${pageContext.request.contextPath}/index">回到首页</a></li>
     </ul>
 </div>

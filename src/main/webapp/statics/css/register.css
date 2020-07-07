@@ -1,0 +1,73 @@
+body {
+    height: 720px;
+    background-color: #ffffff;
+}
+
+.logo img{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.logo p{
+    color: #FF5A11;
+    margin-top: -50px;
+    font-size: 24px;
+    margin-left: 130px;
+}
+.left{
+    margin-left: 225px;
+    margin-top: 60px;
+}
+.right{
+    border: 1px solid #FF0030;
+    width: 530px;
+    height: 595px;
+    margin-top: -602px;
+    margin-left: 590px;
+}
+.right p{
+    margin-top: 35px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+.head{
+    margin-left: 135px;
+    margin-top: -39px;
+}
+.user{
+    margin-left: 135px;
+    margin-top: -39px;
+}
+.paw{
+    margin-top: -39px;
+    margin-left:135px;
+}
+.sex{
+    margin-top: -37px;
+    margin-left:135px;
+}
+.phone{
+    margin-top: -39px;
+    margin-left:135px;
+}
+.type{
+    margin-top: -37px;
+    margin-left:184px;
+}
+h3{
+
+}
+.IDcard{
+    margin-top: -39px;
+    margin-left:135px;
+}
+.right .special {
+    width: 320px;
+    height: 50px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: #FF5A11;
+}

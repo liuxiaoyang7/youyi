@@ -52,5 +52,10 @@ public class UserServiceImpl implements UserService {
         return userDao.jinyan(jinyan ,name);
     }
 
+    @Override
+    public List<User> getUserBytyoeid(int typeid) {
+        return userDao.getUserBytyoeid(typeid);
+    }
+
 
 }

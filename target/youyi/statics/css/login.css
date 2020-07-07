@@ -1,0 +1,50 @@
+body {
+    height: 720px;
+    background-color: #ffffff;
+}
+
+.logo img{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.logo p{
+    color: #FF5A11;
+    margin-top: -50px;
+    font-size: 24px;
+    margin-left: 130px;
+}
+.left{
+    margin-left: 300px;
+    margin-top: 60px;
+}
+.right{
+    border: 1px solid #FF0030;
+    width: 500px;
+    height: 504px;
+    margin-top: -511px;
+    margin-left: 609px;
+}
+.right p{
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.user{
+    margin-left: 135px;
+    margin-top: -48px;
+}
+.psw{
+    margin-top: -51px;
+    margin-left:135px;
+}
+.right .special {
+    width: 320px;
+    height: 50px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 105px;
+    margin-left: 38px;
+    background-color: #FF5A11;
+}

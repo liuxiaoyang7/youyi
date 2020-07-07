@@ -25,12 +25,12 @@
             <column name="uid" sql-type="int(5)" not-null="true"/>
         </property>
         <property name="cid">
-            <column name="cid" sql-type="int(5)" not-null="true"/>
+            <column name="cid" sql-type="int(5)" not-null="false"/>
         </property>
         <property name="pbid">
             <column name="pbid" sql-type="int(5)" not-null="true"/>
         </property>
-        <many-to-one  insert="false" update="false" name="commodityByCid" class="com.cn.youyi.entity.Commodity">
+        <many-to-one insert="false" update="false" name="commodityByCid" class="com.cn.youyi.entity.Commodity">
             <column name="cid" not-null="true"/>
         </many-to-one>
     </class>

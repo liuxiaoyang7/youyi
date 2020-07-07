@@ -1,0 +1,70 @@
+body {
+    height: 720px;
+    background-color: #ffffff;
+}
+
+.logo img{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.logo p{
+    color: #FF5A11;
+    margin-top: -50px;
+    font-size: 24px;
+    margin-left: 130px;
+}
+.left{
+    margin-left: 225px;
+    margin-top: 60px;
+}
+.right{
+    border: 1px solid #FF0030;
+    width: 530px;
+    height: 595px;
+    margin-top: -602px;
+    margin-left: 590px;
+}
+.right p{
+    margin-top: 35px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+.variety{
+    margin-left: 135px;
+    margin-top: -36px;
+}
+.game{
+    margin-left: 150px;
+    margin-top: -36px;
+}
+.title{
+    margin-top: -39px;
+    margin-left:135px;
+}
+.add_img{
+    margin-top: -37px;
+    margin-left:135px;
+}
+.detail{
+    margin-top: -39px;
+    margin-left:135px;
+}
+.kucun{
+    margin-top: -37px;
+    margin-left:135px;
+}
+.price{
+    margin-top: -39px;
+    margin-left:135px;
+}
+.right .special {
+    width: 320px;
+    height: 50px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: #FF5A11;
+}

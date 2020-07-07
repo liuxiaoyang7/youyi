@@ -1,6 +1,5 @@
 package com.cn.youyi.controller;
 
-import com.cn.youyi.dao.PostDao;
 import com.cn.youyi.entity.Commodity;
 import com.cn.youyi.entity.Oorder;
 import com.cn.youyi.entity.Post;
@@ -141,14 +140,14 @@ public class CommodityController {
                 //增加人气
                 int renqi = commodity.getRexiao()+1;
                 commodityService.updateRenqi(cid, renqi);
-                //增加经验
+                //买东西增加10经验
                 int jinyan = user.getExperience()+10;
                 userService.jinyan(jinyan, user.getName());
                 //被买的商家增加经验
                 if (userService.getUserById(commodity.getUid())!=null){ //防止自己刷经验
                     User user1 = userService.getUserById(commodity.getUid());
                     if (user1.getTypeid()==2){
-                        int jinyan1 = user.getExperience()+10;
+                        int jinyan1 = user1.getExperience()+10;
                         userService.jinyan(jinyan1, user1.getName());
                     }else {}
                 }else {}

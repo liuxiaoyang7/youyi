@@ -9,14 +9,13 @@
 <html>
 <head>
     <title>登录</title>
+    <%@ include file="header.jsp"%>
     <script src="${pageContext.request.contextPath}/statics/js/jquery-3.4.1.js"></script>
+    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/statics/css/register.css">
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <script>
     function a1(){
-        console.log($("#name").val());
-        console.log($("#typeid").val());
-        console.log($("#IDcard").val());
         $.post({
             url:"${pageContext.request.contextPath}/user/registering",
             data:{
@@ -61,27 +60,40 @@
 </script>
 
 <body>
-    <div style="margin: 0 auto;width: 30%">
+<div class="all">
+    <div class="logo" style="margin-top: 60px">
+        <img src="${pageContext.request.contextPath}/statics/image/logo.png">
+        <p>游易商城</p>
+    </div>
+    <div class="left">
+        <img height="600" src="${pageContext.request.contextPath}/statics/image/jiansan.png">
+    </div>
         <form id="action_form" action="${pageContext.request.contextPath}/user/register" method="post" enctype="multipart/form-data">
-            头像<input type="file" name="file" id="filehead"><br/>
-            姓名：*<input type="text" placeholder="姓名" id="name" name="name" required="required" onblur="a1()">
-            <span id="nameInfo"></span><br/>
-            密码：*<input type="password" placeholder="密码" id="pwd" name="password" required="required"><br/>
-            性别：*<select id="sex" name="sex">
+            <div class="right">
+                <p>头像</p>
+                <div class="head"><input type="file" name="file" id="filehead"></div>
+                <p>用户名：*</p>
+                <div class="user"><input type="text" placeholder="姓名" id="name" name="name" required="required" onblur="a1()"><span id="nameInfo"></span></div>
+                <p>密码：*</p>
+                <div class="paw"><input type="password" placeholder="密码" id="pwd" name="password" required="required"></div>
+                <p>性别：*</p>
+                <div class="sex"><select id="sex" name="sex">
                     <option value="男">男</option>
                     <option value="女">女</option>
-                 </select><br/>
-            手机号：*<input type="text" placeholder="手机号" id="phone" name="phone" required="required"><br/>
-            选择注册类型：*<select id="typeid" name = "typeid" onblur="a1()">
+                 </select></div>
+                <p>手机号：*</p>
+                <div class="phone"><input type="text" placeholder="手机号" id="phone" name="phone" required="required"></div>
+                <p>选择注册类型：*</p>
+                <div class="type"><select id="typeid" name = "typeid" onblur="a1()">
                             <option value="1" selected="selected">用户注册</option>
                             <option value="2">商家注册</option>
-                        </select><br/>
+                        </select></div>
+                <h3>以下为商家注册信息：</h3>
+                <p>身份证：*</p>
+                <div class="IDcard"><input type="text" placeholder="身份证" id="IDcard" name="IDcard" onblur="a1()"><span id="IDInfo"></span></div>
 
-            <h3>以下为商家注册信息</h3>
-            身份证：<input type="text" placeholder="身份证" id="IDcard" name="IDcard" onblur="a1()">
-            <span id="IDInfo"></span><br/>
-
-            <input type="submit" value="注册"><br/>
+            <input type="submit" value="注册" class="special"><br/>
+            </div>
         </form>
     </div>
 </body>

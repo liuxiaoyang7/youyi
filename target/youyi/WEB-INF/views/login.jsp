@@ -42,15 +42,25 @@
     </script>
 </head>
 <body>
-<div style="width: 40%;margin: 100px auto">
+<div class="all">
+    <div class="logo" style="margin-top: 40px">
+        <img WIDTH="80" HEIGHT="80" src="${pageContext.request.contextPath}/statics/image/logo.png">
+        <p>游易商城</p>
+    </div>
+    <div class="left">
+        <img src="${pageContext.request.contextPath}/statics/image/jiansan.png">
+    </div>
+    <div class="right">
     <form action="${pageContext.request.contextPath}/user/loginok" method="post">
-        用户名：<input class="form-control" required="required" type="text" name="username" id="username" onblur="a1()" placeholder="输入用户名">
-        <span id="userInfo"></span><br/>
+        <p>用户名：</p>
+        <div class="user"><input style="height: 28px" size="26" required="required" type="text" name="username" id="username" onblur="a1()" placeholder="输入用户名"><span id="userInfo"></span></div>
+        <br/>
         <span style="color: red">${msg_loginError}</span><br/>
-        密码：<input class="form-control" required="required" type="password" name="pwd" id="pwd" onblur="a1()" placeholder="请输入密码">
-        <span id="pwdInfo"></span><br/>
-        <input type="submit" value="登录" class="btn btn-primary">
+        <p>密码：</p><div class="psw"><input style="height: 28px" size="26" required="required" type="password" name="pwd" id="pwd" onblur="a1()" placeholder="请输入密码"><span id="pwdInfo"></div>
+        </span><br/>
+        <input class="special" type="submit" value="登录">
     </form>
+    </div>
 </div>
 </body>
 </html>

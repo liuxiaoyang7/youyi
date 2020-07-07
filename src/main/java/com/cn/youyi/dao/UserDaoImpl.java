@@ -68,4 +68,13 @@ public class UserDaoImpl implements UserDao {
                 .setParameter(1, name);
         return q.executeUpdate();
     }
+
+    @Override
+    public List<User> getUserBytyoeid(int typeid) {
+        String hql = "FROM User as u WHERE u.typeid = ?";
+        List list = sessionFactory.getCurrentSession().createQuery(hql)//
+                .setParameter(0, typeid)//
+                .list();
+        return list;
+    }
 }
